@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# rushowl-ia-fe
 
-## Getting Started
+A technical test from RushOwl
 
-First, run the development server:
+## Folder Structures
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- `App` : All folder routes page
+- `configs` : A folder configs for Environment
+- `component` : A component that we can use reusable
+- `graphql` : A folder for generate graphql query and wrapper
+- `lib` : A lib folder for custom forms, global state management (zustand) and utils
+- `utils` : A folder for dummy data, custom hooks, etc
+
+## Installation
+
+Dillinger requires [Node.js](https://nodejs.org/) latest to run.
+
+```sh
+git clone https://github.com/iffatandriano/rushowl-ia-fe.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+cd rushowl-ia-fe
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install depedencies
 
-## Learn More
+```sh
+Yarn install or Npm Install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Setup Environment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+Read on ENVIRONMENT below
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Start on local
 
-## Deploy on Vercel
+```
+Yarn run dev or Npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ENVIRONMENT IA
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| ENV NAME        | BASE URL                                                                 |
+| --------------- | ------------------------------------------------------------------------ |
+| DATABASE_URL    | 'postgres://postgres.[USERNAME]:[PASSWORD]@[URL DATABASE]:5432/postgres' |
+| NEXTAUTH_SECRET | ' '                                                                      |
+
+## Library
+
+All libraries using on rushowl-ia-fe
+You can learn or read documentation from this.
+
+| Plugin    | README                                                |
+| --------- | ----------------------------------------------------- |
+| Next Auth | https://next-auth.js.org/getting-started/introduction |
+| Prisma    | https://www.prisma.io/docs                            |
+| SHACDN UI | https://ui.shadcn.com/docs                            |
+
+## License
+
+IA
