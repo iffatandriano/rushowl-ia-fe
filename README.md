@@ -5,10 +5,8 @@ A technical test from RushOwl
 ## Folder Structures
 
 - `App` : All folder routes page
-- `configs` : A folder configs for Environment
 - `component` : A component that we can use reusable
-- `graphql` : A folder for generate graphql query and wrapper
-- `lib` : A lib folder for custom forms, global state management (zustand) and utils
+- `lib` : A lib folder for custom forms, global state management and utils
 - `utils` : A folder for dummy data, custom hooks, etc
 
 ## Installation
